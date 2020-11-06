@@ -16,7 +16,7 @@ def predict():
     prediction=model.predict(final_features)
 
     output=round(prediction[0])
-    return render_template('index.html', prediction_text="The Sales should be  {}".format(output))
+    return render_template('index.html', prediction_text="The Third Month Sales should be  {}".format(output))
 
 
 @app.route('/predict_api',methods=['POST'])
