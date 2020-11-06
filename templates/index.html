@@ -19,8 +19,8 @@
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
     	<input type="text" name="rate" placeholder="Rate" required="required" />
-        <input type="text" name="sales_in_first_month" placeholder="sales_in_first_month" required="required" />
-		<input type="text" name="sales_in_second_month" placeholder="sales_in_second_month" required="required" />
+        <input type="text" name="sales_in_first_month" placeholder="Sales in First Month" required="required" />
+		<input type="text" name="sales_in_second_month" placeholder="Sales in Second Month" required="required" />
 
         <button type="submit" class="btn btn-primary btn-block btn-large"> Predict Third month sales</button>
     </form>
